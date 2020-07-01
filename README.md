@@ -1,5 +1,7 @@
+# GitOps Training Lab
 
+Part of the GitOps training materials for Container Solutions
 
-```
-git clone --recursive https://github.com/ContainerSolutions/gitops-training-lab
-```
+## Flux
+
+See `flux/`
