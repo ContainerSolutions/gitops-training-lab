@@ -1,0 +1,3 @@
+[submodule "flux-get-started"]
+	path = flux-get-started
+	url = git@github.com:ContainerSolutions/flux-get-started.git
