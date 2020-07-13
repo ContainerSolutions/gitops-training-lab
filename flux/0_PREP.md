@@ -2,4 +2,6 @@ This is mostly for the instructor, so she can be sure that everything is ready f
 
 - delete flux-get-started repo from your personal GitHub account
 
+- delete flux-get-started checkouts (eg rm -rf ~/git/flux-get-started)
+
 - delete flux and demo namespaces from the k8s cluster
