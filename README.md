@@ -2,6 +2,6 @@
 
 Part of the GitOps training materials for Container Solutions
 
-## Flux
+## Flux Demo / Walkthrough
 
 See `flux/`
