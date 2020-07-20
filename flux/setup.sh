@@ -1,3 +1,12 @@
+# Pre-reqs:
+
+# helm    - https://helm.sh/docs/intro/install/
+
+# fluxctl - https://docs.fluxcd.io/en/1.18.0/references/fluxctl.html (optional)
+# On Katacoda:
+# snap install fluxctl --classic
+
+#All
 echo 'Now input your GitHub username: '
 read GHUSER
 helm repo add fluxcd https://charts.fluxcd.io

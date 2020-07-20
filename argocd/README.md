@@ -74,8 +74,8 @@ Namespace was added.
 
 4) Delete the namespace
 
-Remove the namespace, commit and push.
+- Remove the namespace, commit and push.
 
-Commit and push it. Wait for ArgoCD to update, or click refresh.
+- Wait for ArgoCD to update, or click refresh.
 
-Namespace was removed.
+- Namespace was removed.
