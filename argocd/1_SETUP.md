@@ -1,6 +1,6 @@
-# Flux Setup Instructions
+# Flux Setup Instructions
 
-# FORK CODE:
+# FORK CODE:
 #   https://github.com/argoproj/argocd-example-apps
 # Go to UI
 # Go to Applications, New:
