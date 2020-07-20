@@ -1,4 +1,4 @@
-# Flux Setup Instructions
+# Flux Setup Instructions
 
 1) Set up flux
 
