@@ -8,4 +8,4 @@ helm upgrade -i helm-operator fluxcd/helm-operator --set git.ssh.secretName=flux
 
 kubectl -n flux rollout status deployment/flux
 echo SSH KEY:
-fluxctl identity --k8s-fwd-ns flux
+fluxctl identity --k8s-fwd-ns flux || kubectl -n flux logs deployment/flux | grep identity.pub | cut -d '"' -f2
