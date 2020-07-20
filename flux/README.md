@@ -1,6 +1,26 @@
+# Flux
+
+These are the instruction to follow on this taster.
+
+## Flux Setup
+
+1) Set up flux
+
+Follow instructions [here, from 'set up flux' to the end of the page](https://docs.fluxcd.io/en/1.19.0/tutorials/get-started-helm/)
+
+1.1) Summary of commands
+
+EXAMPLE commands in `./setup.sh` for convenience
+
+Take outputted key and go to https://github.com/YOURUSER/flux-get-started/settings/keys/new and paste the key there with R/W access.
+
+This allows Helm charts to be deployed.
+
+## Flux Walkthrough
+
 1) Show logs
 
-Show and talk through the flux logs
+View flux logs
 
 ```
 flux/flux-*
@@ -61,3 +81,10 @@ index 98692ca..86c1edd 100644
 +      #runAsUser: 0
 ```
 
+## Flux Challenges
+
+- Create a new namespace
+
+- Add an application deployment to it (ie a Kubernetes deployment)
+
+- Add a helm application deployment
