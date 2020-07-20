@@ -1,4 +1,4 @@
-# General Setup Instructions
+# General Setup Instructions
 
 1) Create GitHub account
 

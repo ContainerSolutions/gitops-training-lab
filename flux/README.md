@@ -2,7 +2,7 @@
 
 These are the instruction to follow on this taster.
 
-## Flux Setup
+## Flux Setup
 
 1) Set up flux
 
