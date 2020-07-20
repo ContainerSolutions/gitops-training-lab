@@ -28,11 +28,9 @@ flux/flux-*
 
 2) Speed up cycle
 
-Edit deployment/flux
+Edit deployment/flux: change references from 5m to 1m
 
-change references to 5m to 1m
-
-3) Clone repo
+3) Clone forked repo
 
 ```
 git clone git@github.com:GH_USERNAME/flux-get-started
