@@ -31,6 +31,8 @@ argocd account update-password
 
 https://github.com/argoproj/argocd-example-apps
 
+# ArgoCD Walkthrough
+
 1) Go to UI
 
 https://localhost:8080
