@@ -2,7 +2,7 @@
 
 ## 1) Set up ArgoCD
 
-Follow instructions [here](https://docs.fluxcd.io/) under 'getting started'.
+Follow instructions [here](https://argoproj.github.io/argo-cd/getting_started/).
 
 ## 2) Summary of setup
 
