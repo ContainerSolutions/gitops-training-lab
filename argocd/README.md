@@ -2,7 +2,7 @@
 
 1) Set up ArgoCD
 
-Follow instructions [here](https://docs.fluxcd.io/en/1.19.0/tutorials/get-started-helm/://argoproj.github.io/argo-cd/getting_started/)
+Follow instructions [here](https://docs.fluxcd.io/) under 'getting started'.
 
 2) Summary of setup
 
