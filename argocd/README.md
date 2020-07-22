@@ -1,10 +1,10 @@
 # ArgoCD Setup Instructions
 
-1) Set up ArgoCD
+## 1) Set up ArgoCD
 
 Follow instructions [here](https://docs.fluxcd.io/) under 'getting started'.
 
-2) Summary of setup
+## 2) Summary of setup
 
 Install argocd. See [here](https://argoproj.github.io/argo-cd/getting_started/#2-download-argo-cd-cli)
 
@@ -35,39 +35,39 @@ argocd account update-password --server localhost:8080
 
 # ArgoCD Walkthrough
 
-1) Go to UI
+## 1) Go to UI
 
 UI is [here](https://localhost:8080)
 
 Skip SSL warning and log in.
 
-2) Set up repo
+## 2) Set up repo
 
 Go to Application => New
 
 ```
 Application Name: argocd-demo
-Project: default
-Sync Policy: Automatic
-   Prune TICK
-   Self-heal TICK
-Repository URL: https://github.com/YOURGHUSER/argocd-example-apps
-Revision: HEAD
-Path: guestbook
-Cluster: https://kubernetes.default.svc
-Namespace: default   # TODO: can it be new?
-Click CREATE
-Click Sync
+Project:          default
+Sync Policy:      Automatic
+   Prune          TICK
+   Self-heal      TICK
+Repository URL:   https://github.com/YOUR_GH_USER/argocd-example-apps
+Revision:         HEAD
+Path:             guestbook
+Cluster:          https://kubernetes.default.svc
+Namespace:        default
+Click:            CREATE
+Click:            Sync
 ```
 Wait for deployment, show pod, service, argocd logs.
 
-3) Clone repo
+## 3) Clone repo
 
 ```
-git clone git@github.com:YOURGHUESR/argocd-example-apps
+git clone git@github.com:YOUR_GH_USER/argocd-example-apps
 ```
 
-4) Add a new namespace
+## 4) Add a new namespace
 
 Create a file and put it in the repo:
 
@@ -83,7 +83,7 @@ Commit and push it. Wait for ArgoCD to update (up to 3 minutes), or click refres
 
 Namespace was added.
 
-5) Delete the namespace
+## 5) Delete the namespace
 
 Remove the namespace, commit and push.
 
