@@ -30,7 +30,7 @@ Get password and log in:
 PASS=$(kubectl get pods -n argocd -l app.kubernetes.io/name=argocd-server -o name | cut -d'/' -f 2)
 echo $PASS
 argocd login localhost:8080 # admin / $PASS
-argocd account update-password
+argocd account update-password --server localhost:8080
 ```
 
 # ArgoCD Walkthrough
