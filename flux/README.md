@@ -4,8 +4,6 @@ These are the instruction to follow on this taster.
 
 ## Flux Setup
 
-1) Set up flux
-
 Follow instructions [here, from 'set up flux' to the end of the page](https://docs.fluxcd.io/en/1.19.0/tutorials/get-started-helm/)
 
 EXAMPLE commands in `./setup.sh` for convenience
@@ -16,7 +14,7 @@ This allows Helm charts to be deployed.
 
 ## Flux Walkthrough
 
-1) Show logs
+### 1) Show logs
 
 View flux logs
 
@@ -24,24 +22,24 @@ View flux logs
 flux/flux-*
 ```
 
-2) Speed up cycle
+### 2) Speed up cycle
 
 Edit deployment/flux: change references from 5m to 1m
 
-3) Fork repo
+### 3) Fork repo
 
 ```
 git clone https://github.com/fluxcd/flux-get-started
 ```
 
-4) Clone forked repo
+### 4) Clone forked repo
 
 ```
 git clone git@github.com:GH_USERNAME/flux-get-started
 cd flux-get-started
 ```
 
-5) Commit a small change
+### 5) Commit a small change
 
 https://docs.fluxcd.io/en/1.19.0/tutorials/get-started-helm/#committing-a-small-change
 
@@ -60,13 +58,13 @@ index 369ef19..98692ca 100644
 
 and push it.
 
-6) Wait for mongodb
+### 6) Wait for mongodb
 
 Check flux logs.
 
 Check mongodb pods showing in demo namespace.
 
-7) Fix bug
+### 7) Fix bug
 
 Push this change:
 
