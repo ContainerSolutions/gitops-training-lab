@@ -83,6 +83,10 @@ Commit and push it. Wait for ArgoCD to update (up to 3 minutes), or click refres
 
 Namespace was added.
 
+## 5) Change an object
+
+Edit the guestbook UI object to change the 'replicas' item from 1 to 2. ArgoCD will revert the change.
+
 ## 5) Delete the namespace
 
 Remove the namespace, commit and push.
