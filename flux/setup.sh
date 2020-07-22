@@ -4,7 +4,6 @@
 
 # fluxctl - https://docs.fluxcd.io/en/1.18.0/references/fluxctl.html (optional)
 
-#All
 echo 'Now input your GitHub username: '
 read GHUSER
 helm repo add fluxcd https://charts.fluxcd.io
